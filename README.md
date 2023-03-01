@@ -4,13 +4,13 @@ GetWonder app
 ---
 ## Getting Started 🚀
 
-This project contains 3 flavors:
+Este proyecto contiene 3 sabores:
 
-- development
-- staging
-- production
+- desarrollo
+- puesta en escena
+- producción
 
-To run the desired flavor either use the launch configuration in VSCode/Android Studio or use the following commands:
+Para ejecutar el sabor deseado o bien utilizar la configuración de lanzamiento en VSCode / Android Studio o utilizar los siguientes comandos:
 
 ```sh
 # Development
