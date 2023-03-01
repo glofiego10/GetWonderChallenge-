@@ -6,7 +6,11 @@ import 'package:my_app/auth/bloc/bloc_page_auth.dart';
 import 'package:my_app/auth/widgets/backgroud_login.dart';
 import 'package:my_app/auth/widgets/login_form.dart';
 
+/// {@template PageLogin}
+/// La pagina para el login.
+/// {@endtemplate}
 class PageLogin extends StatefulWidget {
+  /// {@macro login_page}
   const PageLogin({super.key});
 
   @override
@@ -44,7 +48,7 @@ class _PageLoginState extends State<PageLogin> {
                   loading: () => const Center(
                     child: CircularProgressIndicator(),
                   ),
-                  unAuthenticated: () => LoginForm(),
+                  unAuthenticated: LoginForm.new,
                   orElse: Container.new,
                 );
               },

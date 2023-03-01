@@ -170,8 +170,13 @@ BlocPageHomeState _$BlocPageHomeStateFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$BlocPageHomeState {
+  ///Estados
   HomeStatus get status => throw _privateConstructorUsedError;
+
+  ///Lista de informacion
   List<Info> get listInfo => throw _privateConstructorUsedError;
+
+  ///Mensaje de error
   String? get error => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -278,10 +283,15 @@ class _$_BlocPageHomeState implements _BlocPageHomeState {
   factory _$_BlocPageHomeState.fromJson(Map<String, dynamic> json) =>
       _$$_BlocPageHomeStateFromJson(json);
 
+  ///Estados
   @override
   @JsonKey()
   final HomeStatus status;
+
+  ///Lista de informacion
   final List<Info> _listInfo;
+
+  ///Lista de informacion
   @override
   @JsonKey()
   List<Info> get listInfo {
@@ -290,6 +300,7 @@ class _$_BlocPageHomeState implements _BlocPageHomeState {
     return EqualUnmodifiableListView(_listInfo);
   }
 
+  ///Mensaje de error
   @override
   final String? error;
 
@@ -338,10 +349,16 @@ abstract class _BlocPageHomeState implements BlocPageHomeState {
       _$_BlocPageHomeState.fromJson;
 
   @override
+
+  ///Estados
   HomeStatus get status;
   @override
+
+  ///Lista de informacion
   List<Info> get listInfo;
   @override
+
+  ///Mensaje de error
   String? get error;
   @override
   @JsonKey(ignore: true)

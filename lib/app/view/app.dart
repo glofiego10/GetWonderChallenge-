@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive/hive.dart';
@@ -9,7 +8,11 @@ import 'package:my_app/l10n/l10n.dart';
 import 'package:repo_api/repo_api.dart';
 import 'package:repo_auth/repo_auth.dart';
 
+/// {@template app}
+/// El punto de entrada a la aplicacion.
+/// {@endtemplate}
 class App extends StatelessWidget {
+  /// {@macro App}
   const App({super.key});
 
   @override
@@ -38,7 +41,11 @@ class App extends StatelessWidget {
   }
 }
 
+/// {@template AppView}
+/// Vista de la aplicacion
+/// {@endtemplate}
 class AppView extends StatefulWidget {
+  /// {@macro AppView}
   const AppView({super.key});
 
   @override
@@ -46,8 +53,10 @@ class AppView extends StatefulWidget {
 }
 
 class _AppViewState extends State<AppView> {
+  ///[AppRouter] para la navegacion
   final _appRouter = AppRouter();
 
+  ///[Hive] para la persistencia de datos
   final isLogged = Hive.box<bool>('Login');
 
   @override

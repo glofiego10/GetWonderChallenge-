@@ -7,11 +7,11 @@ part of 'info.dart';
 // **************************************************************************
 
 _$_Info _$$_InfoFromJson(Map<String, dynamic> json) => _$_Info(
-      title: json['title'] as String?,
-      imageUrl: json['imageUrl'] as String?,
+      title: json['author'] as String?,
+      imageUrl: json['download_url'] as String?,
     );
 
 Map<String, dynamic> _$$_InfoToJson(_$_Info instance) => <String, dynamic>{
-      'title': instance.title,
-      'imageUrl': instance.imageUrl,
+      'author': instance.title,
+      'download_url': instance.imageUrl,
     };

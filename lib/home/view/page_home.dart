@@ -5,7 +5,11 @@ import 'package:my_app/auth/bloc/bloc_page_auth.dart';
 import 'package:my_app/home/bloc/bloc_page_home.dart';
 import 'package:my_app/home/widgets/card_info.dart';
 
+/// {@template PageHome}
+/// La pagina principal de la aplicacion
+/// {@endtemplate}
 class PageHome extends StatefulWidget {
+  /// {@macro PageHome}
   const PageHome({super.key});
 
   @override

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 ///Fondo para el Login
 class BackgroundLogin extends StatelessWidget {
+  /// {@macro BackgroundLogin}
   const BackgroundLogin({super.key});
 
   @override

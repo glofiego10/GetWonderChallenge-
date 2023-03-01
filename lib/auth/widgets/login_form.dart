@@ -5,7 +5,9 @@ import 'package:my_app/auth/bloc/bloc_page_auth.dart';
 import 'package:my_app/auth/widgets/custom_text_field.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
+///Form del Login
 class LoginForm extends StatefulWidget {
+  /// {@macro LoginForm}
   const LoginForm({super.key});
 
   @override

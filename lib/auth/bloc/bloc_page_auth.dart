@@ -8,7 +8,9 @@ part 'bloc_page_auth_state.dart';
 
 part 'bloc_page_auth.freezed.dart';
 
+/// Bloc que manega la autenticacion
 class BlocPageAuth extends Bloc<BlocPageAuthEvent, BlocPageAuthState> {
+  /// {@macro BlocPageAuth}
   BlocPageAuth({required this.repoAuth}) : super(const _UnAuthenticated()) {
     on<BlocPageAuthEvent>(_onAuthEvent);
   }

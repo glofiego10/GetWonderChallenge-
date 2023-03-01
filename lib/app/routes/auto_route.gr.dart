@@ -27,15 +27,18 @@ class AppRouter extends _i3.RootStackRouter {
       return _i3.CustomPage<dynamic>(
         routeData: routeData,
         child: const _i1.PageHome(),
-        transitionsBuilder: _i3.TransitionsBuilders.slideTop,
+        transitionsBuilder: _i3.TransitionsBuilders.slideLeft,
         opaque: true,
         barrierDismissible: false,
       );
     },
     RouteLogin.name: (routeData) {
-      return _i3.MaterialPageX<dynamic>(
+      return _i3.CustomPage<dynamic>(
         routeData: routeData,
         child: const _i2.PageLogin(),
+        transitionsBuilder: _i3.TransitionsBuilders.slideBottom,
+        opaque: true,
+        barrierDismissible: false,
       );
     },
   };

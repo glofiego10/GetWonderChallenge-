@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
+///TextField custom de la app
 class TextFormFieldCustom extends StatelessWidget {
+  /// {@macro TextFormFieldCustom}
   const TextFormFieldCustom({
     required this.textController,
     required this.hintText,

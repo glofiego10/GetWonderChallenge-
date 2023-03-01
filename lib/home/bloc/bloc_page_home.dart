@@ -9,7 +9,9 @@ part 'bloc_page_home_state.dart';
 part 'bloc_page_home.freezed.dart';
 part 'bloc_page_home.g.dart';
 
+/// Bloc de la pagina Home
 class BlocPageHome extends Bloc<BlocPageHomeEvent, BlocPageHomeState> {
+  /// {@macro BlocPageHome}
   BlocPageHome({required this.repoApi}) : super(const BlocPageHomeState()) {
     on<BlocPageHomeEvent>(_onHomeEvent);
   }

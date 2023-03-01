@@ -1,4 +1,3 @@
-import 'package:auto_route/annotations.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:my_app/auth/page_login.dart';
 import 'package:my_app/home/page_home.dart';
@@ -8,9 +7,12 @@ import 'package:my_app/home/page_home.dart';
   routes: <AutoRoute>[
     CustomRoute(
       page: PageHome,
-      transitionsBuilder: TransitionsBuilders.slideTop,
+      transitionsBuilder: TransitionsBuilders.slideLeft,
     ),
-    AutoRoute(page: PageLogin),
+    CustomRoute(
+      page: PageLogin,
+      transitionsBuilder: TransitionsBuilders.slideBottom,
+    ),
   ],
 )
 class $AppRouter {}
