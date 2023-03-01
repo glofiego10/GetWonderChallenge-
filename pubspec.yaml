@@ -1,0 +1,64 @@
+name: my_app
+description: GetWonder app
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  
+  #Login
+  email_validator:
+  
+  #Manejador de estados
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  bloc: ^8.1.1
+
+  #Firebase 
+  firebase_core: ^2.2.0
+  firebase_auth: ^4.1.2
+  
+  #Repos
+  repo_auth:
+    path: packages/repo_auth
+  repo_api:
+    path: packages/repo_api
+  
+  #Provedor de directorio y persistencia de datos
+  path_provider: ^2.0.13
+  hive: ^2.2.3
+
+   #Codigo automatico
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+
+  #Consultas Http
+  http: ^0.13.5
+  
+  responsive_sizer: ^3.1.1
+  fluttertoast: ^8.2.1
+
+  #Navegacion
+  auto_route: ^5.0.4 
+
+dev_dependencies:
+  auto_route_generator: ^5.0.2
+  bloc_test: ^9.1.1
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

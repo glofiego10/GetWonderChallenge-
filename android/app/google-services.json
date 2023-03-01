@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38406821613",
+    "project_id": "login-ejemplo-ace7c",
+    "storage_bucket": "login-ejemplo-ace7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38406821613:android:b92b2d3dfdff2aeb56dee4",
+        "android_client_info": {
+          "package_name": "com.getWonder.org.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38406821613-ttk76t2l70tjq9ckff4eetfj0nsmh2pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQniiWyqa3T_1wTUKSg0cxgdgQUvX07Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38406821613-ttk76t2l70tjq9ckff4eetfj0nsmh2pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
