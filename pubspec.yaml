@@ -32,7 +32,7 @@ dependencies:
     path: packages/repo_api
   
   #Provedor de directorio y persistencia de datos
-  path_provider: ^2.0.13
+  path_provider: ^2.0.14
   hive: ^2.2.3
 
    #Codigo automatico
